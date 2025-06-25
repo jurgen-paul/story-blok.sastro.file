@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@storyblok/js':
-        specifier: 3.2.3
-        version: 3.2.3
+        specifier: 4.1.0
+        version: 4.1.0
       camelcase:
         specifier: ^8.0.0
         version: 8.0.0
@@ -1347,11 +1347,11 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@storyblok/js@3.2.3':
-    resolution: {integrity: sha512-RRnskb6GCpy2CeVVxQMEwAgbWqG7ehnzCVqbidsR7GpPhcdfdCgsAYDlSnAePwzbpMZXqpW1itJXDnuLmm1LXQ==}
+  '@storyblok/js@4.1.0':
+    resolution: {integrity: sha512-sbXkzirgQa0ZKdaMDfu6jdE3WjYAnZ0A7qtXlHj67V9exQcqqch1vpBNERRrHI45SSPQz1nny9GCxWpknsHAIQ==}
 
-  '@storyblok/richtext@3.0.2':
-    resolution: {integrity: sha512-KBLx9ycNVMyVnNyPiwBH5g9uWmiJpMzp9YvpnnADXlPLoksusrwI56BusSM8HaIgJgcnB5RR0LvhySkPFdC8Zg==}
+  '@storyblok/richtext@3.4.0':
+    resolution: {integrity: sha512-C1XoQjIL9vv1p2MeKVsIMlowpaQbNlBrPys6A/f6RnWqcjs3Nlk1J1FCq8W6rForFpcYS88/tN6vPSnhDuC6BQ==}
 
   '@stylistic/eslint-plugin@2.13.0':
     resolution: {integrity: sha512-RnO1SaiCFHn666wNz2QfZEFxvmiNRqhzaMXHXxXXKt+MEP7aajlPxUSMIQpKAaJfverpovEYqjBOXDq6dDcaOQ==}
@@ -1529,6 +1529,7 @@ packages:
 
   '@vercel/edge@1.2.1':
     resolution: {integrity: sha512-1++yncEyIAi68D3UEOlytYb1IUcIulMWdoSzX2h9LuSeeyR7JtaIgR8DcTQ6+DmYOQn+5MCh6LY+UmK6QBByNA==}
+    deprecated: This package is deprecated. You should to use `@vercel/functions` instead.
 
   '@vercel/nft@0.29.0':
     resolution: {integrity: sha512-LAkWyznNySxZ57ibqEGKnWFPqiRxyLvewFyB9iCHFfMsZlVyiu8MNFbjrGk3eV0vuyim5HzBloqlvSrG4BpZ7g==}
@@ -4400,8 +4401,8 @@ packages:
   std-env@3.8.0:
     resolution: {integrity: sha512-Bc3YwwCB+OzldMxOXJIIvC6cPRWr/LxOp48CdQTOkPyk/t4JWWJbrilwBd7RJzKV8QW7tJkcgAmeuLLJugl5/w==}
 
-  storyblok-js-client@6.10.8:
-    resolution: {integrity: sha512-yjXzKQO16ry+LMEUksfLjO/Eq88DwMflHVxg1YDF2Ak13fHhSD/M36XE/E1jrTbjdVuxSnlxrt8jYP6NiCnCSQ==}
+  storyblok-js-client@7.0.1:
+    resolution: {integrity: sha512-U3qB7+MpKfWG7w7BD7nbdLz3JH985Q/sAxb4lVPZMRB9P5mW0lQelbLdehgQQVcaiNEy/3Oi9iQKojIPr0nEsg==}
 
   stream-combiner@0.0.4:
     resolution: {integrity: sha512-rT00SPnTVyRsaSz5zgSPma/aHSOic5U1prhYdRy5HS2kTZviFpmDgzilbtsJsxiroqACmayynDN/9VzIbX5DOw==}
@@ -6355,12 +6356,12 @@ snapshots:
       - typescript
       - vitest
 
-  '@storyblok/js@3.2.3':
+  '@storyblok/js@4.1.0':
     dependencies:
-      '@storyblok/richtext': 3.0.2
-      storyblok-js-client: 6.10.8
+      '@storyblok/richtext': 3.4.0
+      storyblok-js-client: 7.0.1
 
-  '@storyblok/richtext@3.0.2': {}
+  '@storyblok/richtext@3.4.0': {}
 
   '@stylistic/eslint-plugin@2.13.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.2)':
     dependencies:
@@ -10010,7 +10011,7 @@ snapshots:
 
   std-env@3.8.0: {}
 
-  storyblok-js-client@6.10.8: {}
+  storyblok-js-client@7.0.1: {}
 
   stream-combiner@0.0.4:
     dependencies:
